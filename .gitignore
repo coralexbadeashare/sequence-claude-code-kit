@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# personal data produced while using the kit
+my-rules.md
+examples/five-percent-sp500/investments.csv
+examples/five-percent-sp500/state.json
+docs/openapi.yaml
+
+.claude/settings.local.json

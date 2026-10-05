@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequence__listAccounts",
+      "mcp__sequence__getAccount",
+      "mcp__sequence__listBeneficiaries",
+      "mcp__sequence__listAccountTransfers",
+      "mcp__sequence__listRules",
+      "mcp__sequence__getRule",
+      "mcp__sequence__listRuleExecutions",
+      "mcp__sequence__getRuleExecution",
+      "mcp__sequence__listTransfers",
+      "mcp__sequence__getTransfer",
+      "mcp__sequence__listExternalTransactions",
+      "mcp__sequence__listTransactions",
+      "mcp__sequence__listAuditLog"
+    ],
+    "ask": [
+      "mcp__sequence__createAccount",
+      "mcp__sequence__createRule",
+      "mcp__sequence__updateRule",
+      "mcp__sequence__triggerRule",
+      "mcp__sequence__createTransfer"
+    ]
+  }
+}
